@@ -10,7 +10,7 @@ function Catagories() {
     const navigate = useNavigate()
     useEffect(()=>{
         const fetchCategories = async () =>{
-            const URL = "http://localhost:5000/categories"
+            const URL = "http://localhost:3000/categories"
             try{
                 const responce = await axios.get(URL);
                 setData(responce.data);
