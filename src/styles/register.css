@@ -1,0 +1,19 @@
+.register{
+    min-height: 100vh;
+    /* background: url(https://img.freepik.com/premium-photo/concept-online-shopping-shopping-cart-floating-laptop-3d-illustration-banner-e-commerce_522591-1459.jpg) no-repeat center;
+    background-size: cover; */
+    background-color: #b8b8b8;
+
+}
+.r-l-btn{
+    background-color:#EB1D36;
+}
+.card .form-group .form-control:focus{
+    box-shadow: none;
+    border: 1px solid #EB1D36;
+}
+.card form [class*="bi-"]{
+    font-size: 1.3em;
+    color: #EB1D36;
+    font-weight: bolder;
+}
